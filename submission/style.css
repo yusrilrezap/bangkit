@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    flex: 2;
+    padding: 1em;
+}
+
+aside {
+    flex: 1;
+    padding: 1em;
+    background-color: #eee;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: auto;
+}
